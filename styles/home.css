@@ -64,3 +64,10 @@ button.see-showtimes {
 button.see-showtimes:hover {
     background-color: #555;
 }
+
+footer{
+    margin-top: 15%;
+    background-color: #813636;
+    display: flex;
+    justify-content: center;
+}
