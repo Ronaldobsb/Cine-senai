@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     confirmBtn.addEventListener('click', () => {
-        alert('Compra confirmada');
+        alert('Poltrona adicionada');
     });
 });
