@@ -3,6 +3,7 @@
     padding: 0%;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,7 +26,7 @@ header img {
 .banner {
     width: 100%;
     height: 400px;
-    background-image: url('cinema-background.jpg'); /* Certifique-se de ter uma imagem de fundo apropriada */
+    background-image: url(imagens/pngtree-wall-of-movie-posters-on-display-image_2949343.jpg); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -34,6 +35,7 @@ header img {
     align-items: center;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #15ec20;
 }
 
 main {
@@ -80,8 +82,14 @@ button.see-showtimes:hover {
 }
 
 footer{
-    margin-top: 15%;
-    background-color: #813636;
+    
+    background-color: #833838;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width : 800px){
+    .banner{
+        background-image: 80%;
+    }
 }

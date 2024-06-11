@@ -2,5 +2,5 @@
 var btn = document.getElementById("btn")
 
 btn.onclick = function(){
-    alert("pagamento confirmado")
+    alert("pagamento confirmado com sucesso")
 }
